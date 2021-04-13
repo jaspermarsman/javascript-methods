@@ -15,7 +15,8 @@ console.log(cookieIngredients);
 
 const pizzas = ["Hawai", "Margherita"];
 
-
+pizzas.push("Salami");
+console.log(pizzas);
 
 /* Opdracht 2: */
 // Verwijder het éérste item van onderstaande array en log dit in de terminal
@@ -23,14 +24,16 @@ const pizzas = ["Hawai", "Margherita"];
 // ---- Verwachte uitkomst: 'Noten' en [ 'Eieren', 'Bloem', 'Cacao', 'Chocoladestukjes', 'Bakpoeder' ]
 
 const brownieIngredients = ["Noten", "Eieren", "Bloem", "Cacao", "Chocoladestukjes", "Bakpoeder"];
-
+console.log(brownieIngredients.shift());
+console.log(brownieIngredients);
 
 /* Opdracht 3: */
 // Draai de volgorde van onderstaande array met namen om en log de gehele array in de terminal om te kijken is het gelukt is
 // ---- Verwachte uitkomst: [ 'Piet', 'Jan', 'Henk' ]
 
 const names = ["Henk", "Jan", "Piet"];
-
+names.reverse();
+console.log(names);
 
 
 /* Opdracht 4: */
@@ -39,5 +42,6 @@ const names = ["Henk", "Jan", "Piet"];
 
 const cities = ["Utrecht", "Maastricht", "Eindhoven"];
 
-
+cities.splice(1, 0, "Amsterdam");
+console.log(cities);
 
